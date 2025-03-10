@@ -1,7 +1,10 @@
 def add(a,b):
-    return a-b
+    return a+b
 
 def div(a,b):
+    if(a==0):
+        print("please enter another number")
+   
     return a/b
 
 
